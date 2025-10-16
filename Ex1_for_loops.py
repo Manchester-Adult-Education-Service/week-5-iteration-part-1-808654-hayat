@@ -33,7 +33,8 @@ print("-------------------------------------------\n"
 #     print("Hello number", i)
 #
 # Write your code below:
-
+for i in range(4): 
+    print(f"Hello number {i}")
 
 # Task 2: Counting with for loops
 # -------------------------------------------
@@ -48,11 +49,16 @@ print("-------------------------------------------\n"
 # 3. Print a message before and after the loop (for example: "Counting up..." and "Counting down...").
 #
 # Example (similar idea):
-# for i in range(1, 6):
-#     print(i)
+#for i in range(1, 6):
+#    print(i)
 #
 # Write your code below:
+for i in range(1,11):
+    print(i)
 
+
+for x in range(10,0,-1):
+    print(x)
 
 # Task 3: Using for loops with user input
 # -------------------------------------------
@@ -71,8 +77,9 @@ print("-------------------------------------------\n"
 #     print("This is loop", i + 1)
 #
 # Write your code below:
-
-
+user_number = int(input("How many times you want to repeat the message?\n"))
+for i in range(user_number):
+    print("This is loop", i+1 )
 # -------------------------------------------
 # Submitting Your Work (after Tasks 1–3)
 # -------------------------------------------
@@ -109,6 +116,7 @@ print("-------------------------------------------\n"
 #     print(letter)
 
 # Write your code below:
+
 
 
 # Extension 2:
